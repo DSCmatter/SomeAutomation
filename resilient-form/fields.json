@@ -1,0 +1,8 @@
+{
+  "url": "https://app.cloudqa.io/home/AutomationPracticeForm",
+  "fields": [
+    { "label": "First Name", "kind": "text", "value": "Ada" },
+    { "label": "Gender", "kind": "radio", "value": "Female" },
+    { "label": "State", "kind": "select", "value": "India" }
+  ]
+}

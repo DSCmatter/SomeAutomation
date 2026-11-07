@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D28AABB3-21A2-4BA9-A69B-F616D422BBEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResilientForm", "src\ResilientForm\ResilientForm.csproj", "{254BC95F-D244-47E3-A4E9-88B2811C43E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7D89D613-178D-4323-9693-0B00AAB18265}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResilientForm.Tests", "tests\ResilientForm.Tests\ResilientForm.Tests.csproj", "{8E847186-F146-48A3-94F9-6DB4FC076EF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{254BC95F-D244-47E3-A4E9-88B2811C43E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{254BC95F-D244-47E3-A4E9-88B2811C43E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{254BC95F-D244-47E3-A4E9-88B2811C43E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{254BC95F-D244-47E3-A4E9-88B2811C43E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E847186-F146-48A3-94F9-6DB4FC076EF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E847186-F146-48A3-94F9-6DB4FC076EF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E847186-F146-48A3-94F9-6DB4FC076EF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E847186-F146-48A3-94F9-6DB4FC076EF8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{254BC95F-D244-47E3-A4E9-88B2811C43E3} = {D28AABB3-21A2-4BA9-A69B-F616D422BBEA}
+		{8E847186-F146-48A3-94F9-6DB4FC076EF8} = {7D89D613-178D-4323-9693-0B00AAB18265}
+	EndGlobalSection
+EndGlobal
